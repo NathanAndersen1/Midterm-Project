@@ -2,8 +2,10 @@
 
 class StandardTrack {
     // attributes
-    protected:
-
+    private:
+        double adjustedTime;  
     public:
-        std::string name;  
+        StandardTrack(){
+
+        }
 };

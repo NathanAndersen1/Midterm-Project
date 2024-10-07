@@ -2,8 +2,12 @@
 
 class StandardCrossCountry {
     // attributes
-    protected:
-
+    private:
+        std::string courseType; 
+        double elevationGain;   
+        double adjustedTime;  
     public:
-        std::string name;  
+        StandardCrossCountry() {
+
+        }        
 };

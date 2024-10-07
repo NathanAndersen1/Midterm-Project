@@ -1,14 +1,17 @@
 #include <string>
+#include <vector>
 
 class StandardTime {
-    // attributes
     protected:
-        std::string name;  
-        std::string gender;
+        std::string name; 
+        std::string gender; 
         int raceLength;
-        int raceTime;
-        int age;  
-
+        double rawTime;
+        int age; 
+        std::vector<double> lapTimes;
     public:
+        StandardTime() {
+
+        }
         
 };
